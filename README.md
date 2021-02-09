@@ -1,8 +1,9 @@
-# Project Title
+# XMEME - MEME STREAM REACT APP 
 
-One Paragraph of project description goes here
-
+Built a Meme Stream Application where users can posting memes by providing their name, a caption for the meme, URL for the meme image as input and the tags.
+The page is retrieving and displaying the latest 100 posted Memes (names + caption +tags+meme images). Also users can edit ,like and delete meme.
 ## Getting Started
+https://github.com/singhsanket143/MultiNote
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
