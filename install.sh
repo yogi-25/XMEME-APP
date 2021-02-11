@@ -4,6 +4,7 @@
  sudo apt install nodejs -y
  sudo apt install npm -y
  sudo apt install build-essential -y
+ npm install express --save
  
  # ----------------MONGODB---------------
  echo "Installing MONGODB"
