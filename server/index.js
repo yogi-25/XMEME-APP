@@ -14,7 +14,7 @@ app.use(cors());
 app.use('/memes', postRoutes);
 //const mongoose = require('mongoose'); 
 const CONNECTION_URL = 'mongodb://localhost/memdata';
-const PORT = process.env.PORT|| 8081;
+const PORT = process.env.PORT|| 27017;
 
 mongoose.connect(CONNECTION_URL, { useNewUrlParser: true, useUnifiedTopology: true })
   .then(() => app.listen(PORT, () => console.log(`Server Running on Port: http://localhost:${PORT}`)))
