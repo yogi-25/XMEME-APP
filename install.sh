@@ -1,5 +1,5 @@
 curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
 sudo apt install nodejs
-cd client
-npm i
-npm start
+npm install express --save
+npm install -g nodemon
+npm install nodemon --save-dev
