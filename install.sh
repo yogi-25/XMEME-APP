@@ -1,7 +1,6 @@
  echo "Installing NODE"
- curl -sL https://deb.nodesource.com/setup_10.x -o nodesource_setup.sh
- chmod +x nodesource_setup.sh
- sudo ./nodesource_setup.sh
+ curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -
+ sudo apt-get install -y nodejs
  sudo apt install nodejs -y
  sudo apt install npm -y
  sudo apt install build-essential -y
