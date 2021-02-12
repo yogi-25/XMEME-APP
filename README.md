@@ -2,15 +2,22 @@
 
 Built an amazing Meme Stream Application where users can posting memes by providing their name, a caption for the meme, URL for the meme image as input and the tags.
 The page is retrieving and displaying the latest 100 posted Memes (names + caption +tags+meme images). Also users can edit ,like and delete meme.
+Link to hosted application:
+https://meme-stream-by-yogita.netlify.app
 ## Getting Started
-https://github.com/singhsanket143/MultiNote
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+https://github.com/singhsanket143/MultiNote
+MERN Stack is a Javascript Stack that is used for easier and faster deployment of full-stack web applications. 
+It is designed to make the development process smoother and easier.
+I used MERN stack to develope this application.
+Want to test by itself ? Great!
+Follow below instructions to get a copy of the project up and running on your local machine for development and testing purposes. 
 
 ### Prerequisites
 
 What things you need to install the software and how to install them
-
+You wil require Visual Studio Code for easily editing and modifying the code.
+Download it from here https://code.visualstudio.com/download.
 ```
 Give examples
 ```
