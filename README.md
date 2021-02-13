@@ -5,12 +5,14 @@ The page is retrieving and displaying the latest 100 posted Memes (names + capti
 Link to hosted application:
 https://meme-stream-by-yogita.netlify.app
 ## Getting Started
-
-https://github.com/singhsanket143/MultiNote
 MERN is a fullstack implementation in MongoDB, Expressjs, React/Redux, Nodejs 
-I used MERN stack to develope this application.
-Want to test by itself ? Great!
-Follow below instructions to get a copy of the project up and running on your local machine for development and testing purposes. 
+I used MERN stack to develope this application.</br>
+Flow :
+1. The user views the React web app with a browser.
+2. With both components written in Node.js, the React front end communicates with the Express back end via RESTful APIs.
+3. The back-end Express application uses the Mongo database for storing and retrieving data.
+4. Back-end results are communicated back to the the front end.
+5. Front-end results are rendered in a human readable format to the user.
 
 ### Prerequisites
 * [Vscode](https://code.visualstudio.com/docs)
@@ -19,9 +21,16 @@ Follow below instructions to get a copy of the project up and running on your lo
 * [npm](https://nodejs.org/en/download/package-manager/)
 
 ### Installing
-* Clone or   download
-###git clone 
-###npm i
+* Clone or download <br/>
+       * git clone <br/>
+       * npm i
+* project structure <br/>
+       /package.json <br/>
+     server/         <br/>
+        /package.json <br/>
+     client/          <br/>
+        / package.json  <br/>
+
 A step by step series of examples that tell you how to get a development env running
 
 Say what the step will be
