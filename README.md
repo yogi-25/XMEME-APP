@@ -17,6 +17,10 @@ Follow below instructions to get a copy of the project up and running on your lo
 Beacuase you need client and server runs concurrently in different terminal session, in order to make them talk to each other
 Download it from here https://code.visualstudio.com/download. You can use other software too but vscode is best option to choose.
 
+* [MONGODB](https://gist.github.com/nrollr/9f523ae17ecdbb50311980503409aeb3)
+* [NODE](https://nodejs.org/en/download/)
+*[ npm](https://nodejs.org/en/download/package-manager/)
+
 ### Installing
 
 
