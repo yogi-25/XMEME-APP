@@ -13,17 +13,15 @@ Want to test by itself ? Great!
 Follow below instructions to get a copy of the project up and running on your local machine for development and testing purposes. 
 
 ### Prerequisites
-* You wil require Visual Studio Code for editing and modifying the code. 
-Beacuase you need client and server runs concurrently in different terminal session, in order to make them talk to each other
-Download it from here https://code.visualstudio.com/download. You can use other software too but vscode is best option to choose.
-
+* [Vscode](https://code.visualstudio.com/docs)
 * [MONGODB](https://gist.github.com/nrollr/9f523ae17ecdbb50311980503409aeb3)
 * [NODE](https://nodejs.org/en/download/)
 * [npm](https://nodejs.org/en/download/package-manager/)
 
 ### Installing
 
-
+git clone 
+npm i
 A step by step series of examples that tell you how to get a development env running
 
 Say what the step will be
