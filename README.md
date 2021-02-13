@@ -19,7 +19,7 @@ Download it from here https://code.visualstudio.com/download. You can use other 
 
 * [MONGODB](https://gist.github.com/nrollr/9f523ae17ecdbb50311980503409aeb3)
 * [NODE](https://nodejs.org/en/download/)
-*[ npm](https://nodejs.org/en/download/package-manager/)
+* [npm](https://nodejs.org/en/download/package-manager/)
 
 ### Installing
 
