@@ -7,22 +7,18 @@ https://meme-stream-by-yogita.netlify.app
 ## Getting Started
 
 https://github.com/singhsanket143/MultiNote
-MERN Stack is a Javascript Stack that is used for easier and faster deployment of full-stack web applications. 
-It is designed to make the development process smoother and easier.
+MERN is a fullstack implementation in MongoDB, Expressjs, React/Redux, Nodejs 
 I used MERN stack to develope this application.
 Want to test by itself ? Great!
 Follow below instructions to get a copy of the project up and running on your local machine for development and testing purposes. 
 
 ### Prerequisites
-
-What things you need to install the software and how to install them
-You wil require Visual Studio Code for easily editing and modifying the code.
-Download it from here https://code.visualstudio.com/download.
-```
-Give examples
-```
+* You wil require Visual Studio Code for editing and modifying the code. 
+Beacuase you need client and server runs concurrently in different terminal session, in order to make them talk to each other
+Download it from here https://code.visualstudio.com/download. You can use other software too but vscode is best option to choose.
 
 ### Installing
+
 
 A step by step series of examples that tell you how to get a development env running
 
