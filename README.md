@@ -19,9 +19,9 @@ Follow below instructions to get a copy of the project up and running on your lo
 * [npm](https://nodejs.org/en/download/package-manager/)
 
 ### Installing
-
-git clone 
-npm i
+* Clone or download
+##git clone 
+##npm i
 A step by step series of examples that tell you how to get a development env running
 
 Say what the step will be
