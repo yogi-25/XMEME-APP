@@ -30,7 +30,7 @@ export const getPost = async (req, res) => {
 
 export const createPost = async (req, res) => {
     
-    const { caption, url, name, tags } = req.body;
+    
 
     const newPostMessage = new PostMessage({ caption : req.body.caption,
         url: req.body.url,
