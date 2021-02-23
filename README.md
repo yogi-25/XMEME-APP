@@ -1,89 +1,80 @@
 # XMEME - REACT APP 
 
-Built an amazing Meme Stream Application where users can posting memes by providing their name, a caption for the meme, URL for the meme image as input and the tags.
+Built an amazing Meme Stream Application where users can post memes by providing their name, a caption for the meme, URL for the meme image as input and the tags.
 The page is retrieving and displaying the latest 100 posted Memes (names + caption +tags+meme images). Also users can edit ,like and delete meme.
+Link to hosted application:
+https://meme-stream-by-yogita.netlify.app
 ## Getting Started
-https://github.com/singhsanket143/MultiNote
-
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+MERN is a fullstack implementation in MongoDB, Expressjs, React/Redux, Nodejs.<br/>
+I used MERN stack to develope this application. <br/>
+ Flow :
+1. The user views the React web app with a browser.
+2. With both components written in Node.js, the React front end communicates with the Express back end via RESTful APIs.
+3. The back-end Express application uses the Mongo database for storing and retrieving data.
+4. Back-end results are communicated back to the the front end.
+5. Front-end results are rendered in a human readable format to the user.
 
 ### Prerequisites
-
-What things you need to install the software and how to install them
-
-```
-Give examples
-```
+* [Vscode](https://code.visualstudio.com/docs) 
+* [MONGODB](https://gist.github.com/nrollr/9f523ae17ecdbb50311980503409aeb3)
+* [NODE](https://nodejs.org/en/download/)
+* [npm](https://nodejs.org/en/download/package-manager/)
 
 ### Installing
+Front-End - React + Redux <br/>
+Back-End - Node.js, Express.js & MongoDB 
+* Clone or download <br/>
+        git clone https://gitlab.crio.do/COHORT_ME_BUILDOUT_XMEME_ENROLL_1612436694845/yogitamisal12-me_buildout_xmeme.git <br/>
+        cd yogitamisal12-me_buildout_xmeme    <br/>
+        npm i
+* project structure <br/>
+    <pre>
+    package.json
+    server/
+        package.json 
+    client/         
+        package.json  
+   </pre>
 
-A step by step series of examples that tell you how to get a development env running
+* Client-side usage(PORT: 3000)
+  <pre>
+     $ cd client   // go to client folder
+     $ npm i       // npm install pacakges
+     $ npm start // run it locally
+  </pre>
+* Server-side usage(PORT: 8081)
+    <pre>
+      $ cd server   // go to server folder
+      $ npm i       // npm install pacakges
+      $ npm start // run it locally
+    </pre>
 
-Say what the step will be
 
-```
-Give the example
-```
+## Output
+![Screenshot__73_](/uploads/d0d7e13f8e422005be353b44159db107/Screenshot__73_.png)
 
-And repeat
 
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
 
 ## Deployment
 
-Add additional notes about how to deploy this on a live system
-
+Deploy Server to [Heroku](https://id.heroku.com/login)
+<pre>
+$ npm i -g heroku
+$ heroku login
+...
+$ heroku create
+$ npm start heroku:add <your-super-amazing-heroku-app>
+// remember to run this command in the root level, not the server level, so if you follow the documentation along, you may need to do `cd ..`
+$ pwd
+/Users/<your-name>/mern
+$ npm start deploy:heroku
+</pre>
+Deploy client to [Netlify](https://app.netlify.com/?_ga=2.163889273.750743403.1613204695-17519724.1613204695)
+<pre>
+$ npm start build // this will compile the react code using webpack and generate a folder called build in the root level
+$ npm start // this will run the files in docs, this behavior is exactly the same how gh-pages will run your static site
+</pre>
 ## Built With
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
-
-## Authors
-
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
+* [Material UI](https://material-ui.com/)  -Material-UI is a simple and customizable component library to build faster, beautiful, and more accessible React applications.
+ If you want to learn more about it click [here](https://github.com/mui-org/material-ui)
 
