@@ -52,42 +52,7 @@ Back-End - Node.js, Express.js & MongoDB
 
 ## Output
   
-<p>
-<img width=80% src="file:///home/yogita/Pictures/XMEME.png">
-</p> 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-  
-  
-  
-  
-  
-  
-  
-  
-    
-    
-    
-    
-
-
+![XMEME](/Desktop/Pictures/XMEME.png)
 
 ## Deployment
 
