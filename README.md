@@ -51,7 +51,10 @@ Back-End - Node.js, Express.js & MongoDB
 
 
 ## Output
-![Screenshot__73_](/uploads/d0d7e13f8e422005be353b44159db107/Screenshot__73_.png)
+  
+<p>
+<img width=80% src="file:///home/yogita/Pictures/XMEME.png">
+</p> 
 
 
 
